@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visita Loja · Tarea de selectores CSS</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <p class="logo">Visita <span>Loja</span></p>
+    <nav class="menu">
+      <ul>
+        <li><a href="#lugares">Lugares</a></li>
+        <li><a href="#musica">Música</a></li>
+        <li><a href="#sabores">Sabores</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portada" class="portada">
+    <h1>Loja, capital musical y cultural del Ecuador</h1>
+    <p>Ciudad de músicos, poetas y valles templados en el sur del país.</p>
+    <a href="#contacto" class="boton">Planifica tu visita</a>
+    <a href="#lugares" class="boton boton-borde">Ver lugares</a>
+  </section>
+
+  <main>
+
+    <section id="lugares">
+      <h2>Lugares para conocer</h2>
+      <p>Desde la plaza colonial hasta el valle de la longevidad.</p>
+
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <h3>Puerta de la Ciudad</h3>
+          <p>Castillo de estilo morisco que da la bienvenida a Loja, con un mirador en lo alto.</p>
+          <p class="etiqueta">Centro</p>
+        </article>
+        <article class="tarjeta destacada">
+          <h3>Vilcabamba</h3>
+          <p>El valle de la longevidad: clima templado, caminatas y el cerro Mandango.</p>
+          <p class="etiqueta">A 40 km</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Parque Nacional Podocarpus</h3>
+          <p>Bosque nublado con lagunas, cascadas y cientos de especies de aves.</p>
+          <p class="etiqueta">Naturaleza</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Calle Lourdes</h3>
+          <p>La calle más antigua de la ciudad, con casas coloniales de colores.</p>
+          <p class="etiqueta">Centro histórico</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="musica">
+      <h2>Una ciudad que suena</h2>
+      <p>Loja tiene conservatorio, orquesta sinfónica y un festival internacional de artes vivas.</p>
+      <blockquote class="cita">
+        <p>"En Loja, en cada casa hay una guitarra."</p>
+        <cite>Dicho popular lojano</cite>
+      </blockquote>
+      <ul class="lista-artistas">
+        <li>Salvador Bustamante Celi, compositor</li>
+        <li>Segundo Cueva Celi, compositor</li>
+        <li>Benjamín Carrión, escritor y promotor cultural</li>
+      </ul>
+    </section>
+
+    <section id="sabores">
+      <h2>Sabores lojanos</h2>
+      <p>Lo que no puedes dejar de probar.</p>
+      <ol class="lista-platos">
+        <li><strong>Cecina</strong> con yuca y encurtido.</li>
+        <li><strong>Repe</strong>, sopa de guineo verde con quesillo.</li>
+        <li><strong>Tamales lojanos</strong> envueltos en hoja de achira.</li>
+        <li><strong>Horchata</strong>, bebida de hierbas aromáticas.</li>
+      </ol>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda cultural 2026</h2>
+      <table class="tabla-agenda">
+        <caption>Eventos principales del año</caption>
+        <thead>
+          <tr><th>Evento</th><th>Mes</th><th>Lugar</th><th>Entrada</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Festival de Artes Vivas</td><td>Noviembre</td><td>Teatros de la ciudad</td><td>Libre</td></tr>
+          <tr><td>Romería de la Virgen del Cisne</td><td>Agosto</td><td>El Cisne → Loja</td><td>Libre</td></tr>
+          <tr><td>Feria de Integración Fronteriza</td><td>Septiembre</td><td>Recinto ferial</td><td>$2</td></tr>
+          <tr><td>Concierto de la Sinfónica</td><td>Mensual</td><td>Teatro Bolívar</td><td>$5</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto">
+      <h2>Planifica tu visita</h2>
+      <p>Déjanos tus datos y te enviamos una ruta personalizada.</p>
+      <form class="formulario">
+        <label>Nombre</label>
+        <input type="text" placeholder="Tu nombre">
+        <label>Correo</label>
+        <input type="email" placeholder="tucorreo@ejemplo.com">
+        <label>Teléfono</label>
+        <input type="tel" placeholder="09 0000 0000">
+        <label>Días de visita</label>
+        <input type="number" min="1" value="2">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>Visita Loja · Información turística</p>
+    <p>Más información en <a href="https://www.turismo.gob.ec" target="_blank">turismo.gob.ec</a></p>
+    <p>Multimedia y Producción Audiovisual 2026</p>
+  </footer>
+
+</body>
+</html>
